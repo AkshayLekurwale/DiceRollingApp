@@ -13,6 +13,7 @@ type DiceProps = PropsWithChildren<{
   imageUrl: ImageSourcePropType
 }>
 
+
 const Dice = ({imageUrl}: DiceProps):JSX.Element => {
   return (
     <View>
